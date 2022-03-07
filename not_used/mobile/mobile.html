@@ -1,0 +1,8 @@
+<div *ngIf="question.studentfeedback" padding class="qbehaviour_immediatefeedbackstudentfb">
+    <ion-item>
+        <ion-label position="floating">{{ question.studentfeedbacktitle }}</ion-label>
+        <ion-textarea core-auto-rows placeholder="{{ question.studentfeedbacklabel }}" [attr.name]="question.studentfeedback.name" [value]="question.studentfeedback.value"></ion-textarea>
+        <ion-icon class="ion-align-self-center" name="megaphone" slot="start"></ion-icon>
+    </ion-item>
+    <ion-input type="hidden" [attr.name]="question.studentfeedbackformat.name" [value]="question.studentfeedbackformat.value"></ion-input>
+</div>
