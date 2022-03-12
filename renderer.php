@@ -37,26 +37,6 @@ require_once(dirname(__FILE__) . '/../immediatefeedback/renderer.php');
  */
 class qbehaviour_immediatefeedbackstudentfb_renderer extends qbehaviour_immediatefeedback_renderer {
     /**
-     * Generate some HTML (which may be blank) that appears in the question
-     * formulation area, afer the question type generated output.
-     *
-     * For example.
-     * immediatefeedback and interactive mode use this to show the Submit button,
-     * and CBM use this to display the certainty choices.
-     *
-     * @param question_attempt $qa a question attempt.
-     * @param question_display_options $options controls what should and should not be displayed.
-     * @return string HTML fragment.
-     */
-    /*
-    public function controls(question_attempt $qa, question_display_options $options) {
-        $controls = parent::controls($qa, $options);
-        $studentfeedback = $this->studentfeedback($qa, $options);
-        return $controls . $studentfeedback;
-    }
-    */
-
-    /**
      * Generate some HTML (which may be blank) that appears in the outcome area,
      * after the question-type generated output.
      *

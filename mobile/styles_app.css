@@ -1,0 +1,7 @@
+:root .qbehaviour_immediatefeedbackstudentfb>ion-item>ion-icon {
+    color:red;
+}
+
+.qbehaviour_immediatefeedbackstudentfb{
+    --ion-item-background:lightgray;
+}

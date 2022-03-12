@@ -45,7 +45,7 @@ $addons = [
             ]
         ],
         'lang' => [
-            ['pluginname', 'qbehaviour_immediatefeedback_studentfb'], // matching value in  lang/en/qtype_YOURQTYPENAME
+            ['pluginname', 'qbehaviour_immediatefeedbackstudentfb'], // matching value in  lang/en/qtype_YOURQTYPENAME
         ],
         'dependencies' => [
             'qbehaviour_immediatefeedback',
